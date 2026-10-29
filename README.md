@@ -6,7 +6,7 @@ The script scans a folder, analyzes each supported image, generates a short desc
 
 ## Why I Built This
 
-I created this project because I had a large collection of reference images with generic filenames such as `Pintrest Image (1).jpg`, `Pintrest Image (2).png`, and so on.
+I created this project because I had a large collection of reference images with generic filenames such as `Pinterest Image (1).jpg`, `Pinterest Image (2).png`, and so on.
 
 Manually opening and renaming every image would have been repetitive and time-consuming, especially when working with dozens or hundreds of files. I wanted a faster way to organize the collection based on what was actually shown in each image.
 
@@ -33,9 +33,9 @@ What started as a small personal automation task became a useful way to explore 
 Before:
 
 ```text
-Pintrest Image (1).jpg
-Pintrest Image (2).jpg
-Pintrest Image (3).png
+Pinterest Image (1).jpg
+Pinterest Image (2).jpg
+Pinterest Image (3).png
 ```
 
 After:
