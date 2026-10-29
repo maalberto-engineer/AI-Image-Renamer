@@ -32,19 +32,18 @@ What started as a small personal automation task became a useful way to explore 
 
 Before:
 
-```text
+`
 Pinterest Image (1).jpg
 Pinterest Image (2).jpg
 Pinterest Image (3).png
-```
+`
 
 After:
 
-```text
-pixel_art_gothic_lady.jpg
+`pixel_art_gothic_lady.jpg
 dark_knight_with_sword.jpg
 cherry_blossom_temple.png
-```
+`
 
 ## Requirements
 
@@ -56,9 +55,9 @@ You will need:
 
 This project currently uses:
 
-```text
+`
 qwen2.5vl
-```
+`
 
 ## Installation
 
