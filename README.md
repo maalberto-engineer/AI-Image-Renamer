@@ -18,11 +18,7 @@ What started as a small personal automation task became a useful way to explore 
 
 - Automatically analyzes images using a local AI vision model
 - Generates short descriptive filenames
-- Supports:
-  - `.jpg`
-  - `.jpeg`
-  - `.png`
-  - `.webp`
+- Supports `.jpg`, `.jpeg`, `.png`, and `.webp` images
 - Automatically handles duplicate filenames
 - Runs locally through Ollama
 - Does not require uploading images to a cloud service
@@ -54,9 +50,7 @@ You will need:
 - Ollama
 - A compatible Ollama vision model
 
-This project currently uses:
-
-`qwen2.5vl`
+This project currently uses `qwen2.5vl`.
 
 ## Installation
 
@@ -86,21 +80,17 @@ You can test the model with:
 ollama run qwen2.5vl
 ```
 
-### 3. Install Python Dependencies
+### 3. Install the Python Dependency
 
 Clone or download this repository.
 
-Then install the required Python package:
+Then install the Ollama Python package:
 
 ```bash
-pip install -r requirements.txt
+pip install ollama
 ```
 
-The `requirements.txt` file currently contains:
-
-```text
-ollama
-```
+Once the installation is complete, the script is ready to run.
 
 ## Usage
 
@@ -173,9 +163,7 @@ Consider testing the script on a copied folder before using it on important file
 AI-Image-Renamer/
 │
 ├── rename_images.py
-├── requirements.txt
-├── README.md
-└── .gitignore
+└── README.md
 ```
 
 ## AI Assistance
